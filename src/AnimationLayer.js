@@ -14,6 +14,8 @@ var AnimationLayer = cc.Layer.extend({
         luz.setPosition(cc.p(size.width, size.height));
         this.addChild(luz, 0);
 
+        //teste do mauricio branch, tentando causar geral
+
         var luz_apagando = cc.FadeOut.create(0.1);
         var luz_acendendo = cc.FadeIn.create(0.1);
 
