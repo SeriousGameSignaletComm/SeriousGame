@@ -35,6 +35,7 @@ cont : 0,
 		        onKeyReleased: function( key, event )
 		        {
 		           // cc.log( "Key Released: " + key.toString( ) );
+		           // i'm adding this line here to test
 		        }
 		    }, this );
 		}
