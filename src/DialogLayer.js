@@ -88,10 +88,10 @@ cont : 0,
 
 		    case 1:
 		    	this.removeChildByTag(this.cont-1, true);
-		    	var intro2 = new cc.LabelTTF("Est-ce que tu pense qu'il veut dire quelque chose? Une message peut-être.", "American Typewriter", 16);
-		        intro2.setPosition(cc.p(240, 80));
-		        intro2.setTag(1);
-		        this.addChild(intro2);
+		    	var intro = new cc.LabelTTF("Est-ce que tu pense qu'il veut dire quelque chose? Une message peut-être.", "American Typewriter", 16);
+		        intro.setPosition(cc.p(240, 80));
+		        intro.setTag(1);
+		        this.addChild(intro);
 		        this.cont = cont + 1;
 		        cc.log(this.cont);
 
@@ -99,10 +99,10 @@ cont : 0,
 
 		    case 2:
 		    	this.removeChildByTag(this.cont-1, true);
-		    	var intro3 = new cc.LabelTTF("Tappez c'est que tu pense que le phare veut dire (tout minuscule).", "American Typewriter", 16);
-		        intro3.setPosition(cc.p(240, 80));
-		        intro3.setTag(2);
-		        this.addChild(intro3);
+		    	var intro = new cc.LabelTTF("Tappez c'est que tu pense que le phare veut dire (tout minuscule).", "American Typewriter", 16);
+		        intro.setPosition(cc.p(240, 80));
+		        intro.setTag(2);
+		        this.addChild(intro);
 		        this.cont = cont + 1;
 		        cc.log(this.cont);
 
@@ -122,10 +122,10 @@ cont : 0,
 		    case 3:
 		    	this.removeChildByTag(this.cont-1, true);
 		    	this.removeChild(this.textField);
-		    	var intro4 = new cc.LabelTTF("Non, je ne pense pas que sois ça.", "American Typewriter", 16);
-		        intro4.setPosition(cc.p(240, 80));
-		        intro4.setTag(1);
-		        this.addChild(intro4);
+		    	var intro = new cc.LabelTTF("Non, je ne pense pas que sois ça.", "American Typewriter", 16);
+		        intro.setPosition(cc.p(240, 80));
+		        intro.setTag(1);
+		        this.addChild(intro);
 		        this.cont = cont - 1;
 		        cc.log(this.cont);
 
@@ -134,10 +134,10 @@ cont : 0,
 		    case 4:
 		    	this.removeChildByTag(this.cont-2, true);
 		    	this.removeChild(this.textField);
-		    	var intro5 = new cc.LabelTTF("Putain, t'as raison! Comment j'ai pas vu ça?", "American Typewriter", 16);
-		        intro5.setPosition(cc.p(240, 80));
-		        intro5.setTag(4);
-		        this.addChild(intro5);
+		    	var intro = new cc.LabelTTF("Putain, t'as raison! Comment j'ai pas vu ça?", "American Typewriter", 16);
+		        intro.setPosition(cc.p(240, 80));
+		        intro.setTag(4);
+		        this.addChild(intro);
 		        this.cont = cont + 1;
 		        cc.log(this.cont);
 
