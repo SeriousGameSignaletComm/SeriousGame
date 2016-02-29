@@ -63,7 +63,7 @@ cont : 0,
 
 		var size = cc.director.getWinSize();
 
-		var intro0 = new cc.LabelTTF("Oh, bonjour! Vous paraître nouveau ici.", "American Typewriter", 16);
+		var intro0 = new cc.LabelTTF("Oh, bonjour! Vous êtes nouveaux par ici.", "American Typewriter", 16);
 	    intro0.setPosition(cc.p(240, 80));
 	    intro0.setTag(0);
 	    this.addChild(intro0);
@@ -77,7 +77,7 @@ cont : 0,
 		switch(cont){
 			case 0:
 				this.removeChildByTag(this.cont, true);
-				var intro = new cc.LabelTTF("Je suis un peu occupé. Le phare me paraître un peu bizarre.", "American Typewriter", 16);
+				var intro = new cc.LabelTTF("Il se passe des choses bizzares par ici, regarde le phare par exemple...", "American Typewriter", 16);
 		        intro.setPosition(cc.p(240, 80));
 		        intro.setTag(0);
 		        this.addChild(intro);
@@ -88,7 +88,7 @@ cont : 0,
 
 		    case 1:
 		    	this.removeChildByTag(this.cont-1, true);
-		    	var intro = new cc.LabelTTF("Est-ce que tu pense qu'il veut dire quelque chose? Une message peut-être.", "American Typewriter", 16);
+		    	var intro = new cc.LabelTTF("Qu'est ce que cela peut bien signifier ? Une message peut-être.", "American Typewriter", 16);
 		        intro.setPosition(cc.p(240, 80));
 		        intro.setTag(1);
 		        this.addChild(intro);
@@ -99,7 +99,7 @@ cont : 0,
 
 		    case 2:
 		    	this.removeChildByTag(this.cont-1, true);
-		    	var intro = new cc.LabelTTF("Tappez c'est que tu pense que le phare veut dire (tout minuscule).", "American Typewriter", 16);
+		    	var intro = new cc.LabelTTF("As-tu une idée de ce que ça peut signifier ? (tout minuscule).", "American Typewriter", 16);
 		        intro.setPosition(cc.p(240, 80));
 		        intro.setTag(2);
 		        this.addChild(intro);
@@ -134,7 +134,7 @@ cont : 0,
 		    case 4:
 		    	this.removeChildByTag(this.cont-2, true);
 		    	this.removeChild(this.textField);
-		    	var intro = new cc.LabelTTF("Putain, t'as raison! Comment j'ai pas vu ça?", "American Typewriter", 16);
+		    	var intro = new cc.LabelTTF("Mais oui ! C'est binen du morse, merci de ton aide précieuse !", "American Typewriter", 16);
 		        intro.setPosition(cc.p(240, 80));
 		        intro.setTag(4);
 		        this.addChild(intro);
